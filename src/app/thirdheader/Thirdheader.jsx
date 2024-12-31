@@ -4,7 +4,7 @@ import Image from "next/image";
 const Thirdheader = () => {
   return (
     <>
-      <div className=" flex px-10 py-10 gap-x-28 items-center">
+      <div className=" flex-row py-1 sm:flex px-10 sm:py-10 gap-x-28 items-center">
         <div>
           <Image
             src="/Assets/image1.png"

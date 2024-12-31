@@ -8,7 +8,7 @@ const Basket = () => {
   return (
     <>
       <Header />
-      <div className='p-10'>
+      <div className='sm:p-10 px-10'>
         <div className='inline-flex gap-10'>
          <h1 className='font-bold text-4xl '>Basket</h1>
          <p className='mt-4 '>3 items</p>
@@ -19,20 +19,20 @@ const Basket = () => {
          
          {/* -------- */}
 
-         <div className="flex">
-          <div className='flex-row'>
+         <div className="flex-row md:flex ">
+          <div className='flex-row '>
             <div className='mt-12'>
-              <div className=' w-[800px] bg-yellow-50 border  rounded-2xl inline-flex'>
+              <div className='w-full sm:w-[800px] bg-yellow-50 border  rounded-2xl inline-flex'>
               <Image
                 src="/Assets/tomato.png"
                 width={500}
                 height={500}
                 style={{objectFit:"cover"}}
-                className='h-24 w-24 rounded-tl-2xl rounded-bl-2xl'
+                className='h-32 w-24 rounded-tl-2xl rounded-bl-2xl'
                 alt="Picture of the author"
               />
               <div className='p-3'>
-                <div className=' font-semibold flex justify-between gap-x-[480px]' >
+                <div className=' font-semibold flex justify-around w-[250px] sm:gap-x-[540px] ' >
                 <p >Heirloom tomato</p>
                 <h2>$5.99</h2>
                 </div>
@@ -46,17 +46,17 @@ const Basket = () => {
             </div>
 
             <div className='mt-6'>
-              <div className=' w-[800px] bg-yellow-50 border  rounded-2xl inline-flex'>
+              <div className=' w-full sm:w-[800px] bg-yellow-50 border  rounded-2xl inline-flex'>
               <Image
                 src="/Assets/ginger.png"
                 width={500}
                 height={500}
-                style={{objectFit:"contain"}}
-                className='h-24 w-auto rounded-tl-2xl rounded-bl-2xl'
+                style={{objectFit:"cover"}}
+                className='h-30 w-24 rounded-tl-2xl rounded-bl-2xl'
                 alt="Picture of the author"
               />
               <div className='p-3'>
-                <div className=' font-semibold flex justify-between gap-x-[480px]' >
+                <div className=' font-semibold flex justify-around w-[250px] sm:gap-x-[540px]' >
                 <p >Heirloom tomato</p>
                 <h2>$5.99</h2>
                 </div>
@@ -70,17 +70,17 @@ const Basket = () => {
             </div>
 
             <div className='mt-6'>
-              <div className=' w-[800px] bg-yellow-50 border  rounded-2xl inline-flex'>
+              <div className=' w-full sm:w-[800px] bg-yellow-50 border  rounded-2xl inline-flex'>
               <Image
                 src="/Assets/onion.png"
                 width={500}
                 height={500}
-                style={{objectFit:"contain"}}
-                className='h-24 w-auto rounded-tl-2xl rounded-bl-2xl'
+                style={{objectFit:"cover"}}
+                className='h-32 w-24 rounded-tl-2xl rounded-bl-2xl'
                 alt="Picture of the author"
               />
               <div className='p-3'>
-                <div className=' font-semibold flex justify-between gap-x-[480px]' >
+                <div className=' font-semibold flex justify-around w-[250px] sm:gap-x-[540px]' >
                 <p >Heirloom tomato</p>
                 <h2>$5.99</h2>
                 </div>
@@ -95,7 +95,7 @@ const Basket = () => {
 
         
           </div>
-          <div className="bg-yellow-50 w-72 h-60 p-3 mt-12 ml-36 border rounded-2xl ">
+          <div className="bg-yellow-50 sm:w-72 h-60 p-3 mt-12 sm:ml-36 border rounded-2xl ">
             <div>
               <h2 className='font-semibold'>Order Summary</h2>
             </div>

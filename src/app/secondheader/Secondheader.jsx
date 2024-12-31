@@ -4,7 +4,7 @@ const Secondheader = () => {
   return (
     <>
       <div className="text-center p-20 ">
-        <div className="text-6xl">
+        <div className="text-2xl sm:text-6xl">
           <h1 className="">
             We&apos;re <span className="italic font-light">farmers , purveyors, </span>
               and <span className="italic font-light">eaters</span> of <br /> organically grown food.
