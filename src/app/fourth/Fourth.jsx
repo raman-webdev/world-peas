@@ -7,7 +7,7 @@ const Fourth = () => {
       <div className='w-56'>
         <h3 className=' font-semibold'> WHAT WE BELIEVE</h3>
       </div>
-      <div className=''>
+      <div className='text-xs sm:text-lg '>
         <p>We believe in Produce. Tasty Produce. Produce like:</p>
         <p className='mt-6'>Apples. Oranges. Limes. Lemons. Guavas. Carrots. Cucumbers. Jicamas. Cauliflowers. <br /> Brussels sprouts. Shallots. Japanese eggplants. Asparagus. Artichokes—Jerusalem <br />artichokes, too. Radishes. Broccoli. Baby broccoli. Broccolini. Bok choy. Scallions. <br /> Ginger. Cherries. Raspberries. Cilantro. Parsley. Dill. </p>
         <p className='mt-6'>What are we forgetting?</p>

@@ -14,10 +14,10 @@ import { IoMenuOutline } from "react-icons/io5";
 const Header = () => {
   return (
     <>
-      <div className='px-10 sm:py-8 py-3 flex justify-between'>
-        <div>
-          <h1 className='text-green-500 font-semibold'>World Peas</h1>
-        </div>
+      <div className='px-6 sm:py-8 py-3 flex justify-between'>
+        <Link href={"/"}>
+        <h1 className='text-green-500 font-semibold'>World Peas</h1>
+        </Link>
         <div className='hidden sm:flex'>
           <ul className='flex gap-4'>
             <li>Shop</li>

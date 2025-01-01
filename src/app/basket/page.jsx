@@ -8,7 +8,7 @@ const Basket = () => {
   return (
     <>
       <Header />
-      <div className='sm:p-10 px-10'>
+      <div className='sm:p-10 px-6'>
         <div className='inline-flex gap-10'>
          <h1 className='font-bold text-4xl '>Basket</h1>
          <p className='mt-4 '>3 items</p>
@@ -32,7 +32,7 @@ const Basket = () => {
                 alt="Picture of the author"
               />
               <div className='p-3'>
-                <div className=' font-semibold flex justify-around w-[250px] sm:gap-x-[540px] ' >
+                <div className=' font-semibold flex justify-between w-[180px] sm:gap-x-[540px] ' >
                 <p >Heirloom tomato</p>
                 <h2>$5.99</h2>
                 </div>
@@ -56,7 +56,7 @@ const Basket = () => {
                 alt="Picture of the author"
               />
               <div className='p-3'>
-                <div className=' font-semibold flex justify-around w-[250px] sm:gap-x-[540px]' >
+                <div className=' font-semibold flex justify-between w-[180px] sm:gap-x-[540px]' >
                 <p >Heirloom tomato</p>
                 <h2>$5.99</h2>
                 </div>
@@ -80,7 +80,7 @@ const Basket = () => {
                 alt="Picture of the author"
               />
               <div className='p-3'>
-                <div className=' font-semibold flex justify-around w-[250px] sm:gap-x-[540px]' >
+                <div className=' font-semibold flex justify-between w-[180px] sm:gap-x-[540px]' >
                 <p >Heirloom tomato</p>
                 <h2>$5.99</h2>
                 </div>

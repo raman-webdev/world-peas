@@ -3,7 +3,7 @@ import React from "react";
 const Secondheader = () => {
   return (
     <>
-      <div className="text-center p-20 ">
+      <div className="text-center p-5 sm:p-20 ">
         <div className="text-2xl sm:text-6xl">
           <h1 className="">
             We&apos;re <span className="italic font-light">farmers , purveyors, </span>
